@@ -11,7 +11,12 @@ defined('_JEXEC') or die();
 ?>
 
 <div id="akeebasubs" class="userinfo">
-
+<div class="akeeba-bootstrap">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+		<?php echo JText::_('COM_AKEEBASUBS_LEVEL_LBL_ACCOUNTHEADER')?>
+		</h3>
+	</div>
 <?php echo $this->getContainer()->template->loadPosition('akeebasubscriptionsuserinfoheader'); ?>
 
 <noscript>
@@ -34,6 +39,7 @@ defined('_JEXEC') or die();
 
 	<?php echo $this->getContainer()->template->loadPosition('akeebasubscriptionsuserinfofooter'); ?>
 
+</div>
 </div>
 
 <?php
