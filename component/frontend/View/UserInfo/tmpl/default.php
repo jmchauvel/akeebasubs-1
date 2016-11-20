@@ -11,7 +11,7 @@ defined('_JEXEC') or die();
 ?>
 
 <div id="akeebasubs" class="userinfo">
-
+<div class="akeeba-bootstrap">
 <?php echo $this->getContainer()->template->loadPosition('akeebasubscriptionsuserinfoheader'); ?>
 
 <noscript>
@@ -35,7 +35,7 @@ defined('_JEXEC') or die();
 	<?php echo $this->getContainer()->template->loadPosition('akeebasubscriptionsuserinfofooter'); ?>
 
 </div>
-
+</div>
 <?php
 $aks_msg_error_overall = JText::_('COM_AKEEBASUBS_LEVEL_ERR_JSVALIDATIONOVERALL',true);
 $script = <<<JS
